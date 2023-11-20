@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div style={{ backgroundColor: "#343a40" }}>
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark px-5">
+      <nav class="navbar navbar-expand-lg bg-dark px-5">
         <Link to="/" className="navbar-brand">
           <span className="logo-text text-light fw-bold">PODSTAR</span>
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
