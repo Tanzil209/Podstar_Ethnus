@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div style={{ backgroundColor: "#343a40" }}>
-      <nav class="navbar navbar-expand-lg bg-dark px-5">
+      <nav class="navbar navbar-expand-lg bg-dark  navbar-light px-5">
         <Link to="/" className="navbar-brand">
           <span className="logo-text text-light fw-bold">PODSTAR</span>
         </Link>
@@ -16,8 +16,11 @@ const Navbar = () => {
           aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{ backgroundColor: "#343a40", color: "#20a84f" }}
         >
-          <span class="navbar-toggler-icon"></span>
+          <div>
+            <span class="navbar-toggler-icon"></span>
+          </div>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
